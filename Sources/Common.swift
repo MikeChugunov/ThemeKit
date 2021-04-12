@@ -6,6 +6,9 @@
 //  Copyright © 2016 Paw & Nuno Grilo. All rights reserved.
 //
 
+import AppKit
+import Foundation
+
 func CacheKey(selector: Selector) -> NSNumber {
     return CacheKey(selector: selector, colorSpace: nil, theme: nil)
 }
